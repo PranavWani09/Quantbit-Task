@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header nav {
+    display: flex;
+    background-color: black;
+    gap: 20px;
+    padding: 10px 0;
+    margin: auto;
+}
+
+nav span{
+    color: aliceblue;
+    margin-right: 300px;
+}
+
+nav ul {
+    display: flex;
+    gap: 30px;
+}
+
+nav li {
+    list-style: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: aliceblue;
+    padding: 10px 15px;
+}
+
+nav a:hover {
+    background-color: rgb(126, 119, 111);
+}
+
+body {
+    padding-bottom: 50px;
+}
+
+footer {
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    padding: 5px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
