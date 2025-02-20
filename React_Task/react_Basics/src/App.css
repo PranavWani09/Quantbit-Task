@@ -1,0 +1,36 @@
+body{
+  background-color: rgb(104, 103, 103);
+  display: flex;
+  justify-content: center;
+}
+
+.container{
+  justify-items: center;
+  margin: auto;
+  background-color: rgb(59, 58, 58);
+  padding: 15px;
+  border-radius: 5px;
+  color: rgb(202, 207, 211);
+  margin: 10px 10px;
+  min-height: 430px;
+}
+
+.container input{
+  border-radius: 5px;
+  cursor: pointer;
+  width: 270px;
+  font-style: italic;
+}
+
+input:hover{
+  background-color:rgb(236, 241, 236) ;
+}
+
+.container h2{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container ul li{
+  list-style: none;
+  left: 0;
+}
